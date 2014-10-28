@@ -1,0 +1,242 @@
+--<ScriptOptions statementTerminator=";"/>
+
+ALTER TABLE `mykillerapp`.`Users` DROP PRIMARY KEY;
+Delete from Users;
+--SET FOREIGN_KEY_CHECKS=0;
+DROP TABLE Users;
+ALTER TABLE USERMESSAGE DROP COLUMN username;
+DROP TABLE USERMESSAGE;
+CREATE TABLE `TTUsers` (
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`username` VARCHAR(20),
+	`password` VARCHAR(20),
+	`profile_image` LONGBLOB,
+	`gender` VARCHAR(20),
+	`active` VARCHAR(20),
+	PRIMARY KEY (`id`)
+) ENGINE=InnoDB;
+
+CREATE TABLE `Users` (
+	`username` VARCHAR(20) NOT NULL,
+	`password` VARCHAR(20),
+	`profile_image` LONGBLOB,
+	`gender` VARCHAR(20),
+	`active` VARCHAR(20),
+	PRIMARY KEY (`username`)
+) ENGINE=InnoDB;
+
+
+ALTER TABLE TTUsers ADD COLUMN BIRTHYEAR VARCHAR(20)
+ALTER TABLE TTUsers ADD COLUMN LOCATION_ID INT
+ALTER TABLE TTUsers ADD COLUMN LANGUAGE_ID INT
+ALTER TABLE TTUsers ADD COLUMN ETHNICITY_ID INT
+ALTER TABLE TTUsers ADD COLUMN FIRST_NAME VARCHAR(2000);
+ALTER TABLE TTUsers ADD COLUMN LAST_NAME VARCHAR(2000);
+ALTER TABLE TTUsers ADD COLUMN MEDIUM_NAME VARCHAR(2000);
+ALTER TABLE TTUsers ADD COLUMN PREFERRED_MEDIUM_USERNAME VARCHAR(2000);
+
+
+
+ALTER TABLE TTUsers
+ADD CONSTRAINT TTUSERS_LOCATION_FK FOREIGN KEY (LOCATION_ID) REFERENCES LOCATION(ID);
+
+
+ALTER TABLE TTUsers
+ADD CONSTRAINT TTUSERS_LANGUAGE_FK FOREIGN KEY (LANGUAGE_ID) REFERENCES LANGUAGE(ID);
+
+ALTER TABLE TTUsers
+ADD CONSTRAINT TTUSERS_ETHNICITY_FK FOREIGN KEY (ETHNICITY_ID) REFERENCES ETHNICITY(ID);
+
+
+ALTER TABLE Users
+DROP FOREIGN KEY USERS_LOCATION_FK;
+
+ALTER TABLE Users
+DROP FOREIGN KEY  USERS_LANGUAGE_FK;
+
+
+ALTER TABLE Users
+DROP FOREIGN KEY  USERS_ETHNICITY_FK;
+
+ALTER TABLE Users
+DROP PRIMARY KEY;
+
+ALTER TABLE ISSUE_USER_MESSAGE 
+DROP FOREIGN KEY fk_usermessage_id;
+
+ALTER TABLE `ISSUE_USER_MESSAGE` DROP PRIMARY KEY;
+
+ALTER TABLE `ISSUE_USER_MESSAGE` DROP INDEX `usermessage_id`;
+
+
+ALTER TABLE `ISSUE_USER_MESSAGE` DROP INDEX `username`;
+
+ALTER TABLE ISSUE_USER_MESSAGE DROP COLUMN username;
+
+
+CREATE TABLE LOCATION(
+id INT NOT NULL AUTO_INCREMENT, 
+PRIMARY KEY(id),
+NAME VARCHAR(3000));
+
+
+CREATE TABLE LANGUAGE(
+id INT NOT NULL AUTO_INCREMENT, 
+PRIMARY KEY(id),
+NAME VARCHAR(3000));
+
+CREATE TABLE ETHNICITY(
+id INT NOT NULL AUTO_INCREMENT, 
+PRIMARY KEY(id),
+NAME VARCHAR(3000));
+
+
+CREATE TABLE TTUSER_LOCATION_COUNT(
+id INT NOT NULL AUTO_INCREMENT, 
+PRIMARY KEY(id),
+TTUSER_ID VARCHAR(20),
+LOCATION_ID VARCHAR(20),
+COUNT INT
+);
+delete from TTUSER_LOCATION_COUNT;
+CREATE TABLE TTUSER_ETHNICITY_COUNT(
+id INT NOT NULL AUTO_INCREMENT, 
+PRIMARY KEY(id),
+TTUSER_ID VARCHAR(20),
+ETHNICITY_ID VARCHAR(20),
+COUNT INT
+);
+
+delete from TTUSER_ETHNICITY_COUNT;
+
+
+
+CREATE TABLE TTUSER_AGE_COUNT(
+id INT NOT NULL AUTO_INCREMENT, 
+PRIMARY KEY(id),
+TTUSER_ID VARCHAR(20),
+BIRTH_YEAR VARCHAR(20),
+COUNT INT
+);
+
+CREATE TABLE TTUSER_EHTNICITY_LOCATION_AGE_COUNT(
+id INT NOT NULL AUTO_INCREMENT, 
+PRIMARY KEY(id),
+TTUSER_ID VARCHAR(20),
+ETHNICITY_ID VARCHAR(20),
+LOCATION_ID VARCHAR(20),
+BIRTH_YEAR VARCHAR(20),
+COUNT INT
+);
+
+CREATE TABLE TTUSER_LANGUAGE_COUNT(
+id INT NOT NULL AUTO_INCREMENT, 
+PRIMARY KEY(id),
+TTUSER_ID VARCHAR(20),
+LANGUAGE_ID VARCHAR(20),
+COUNT INT
+);
+
+DROP TABLE TTUSER_LANGUAGE_COUNT;
+
+
+CREATE TABLE TTUSER_REQUEST_RECEIVED(
+id INT NOT NULL AUTO_INCREMENT, 
+PRIMARY KEY(id),
+TTUSER_ID VARCHAR(20),
+REQUEST_DATE VARCHAR(20),
+COUNT INT
+);
+
+CREATE TABLE TTUSER_REQUEST_SENT(
+id INT NOT NULL AUTO_INCREMENT, 
+PRIMARY KEY(id),
+TTUSER_ID VARCHAR(20),
+REQUEST_DATE VARCHAR(20),
+COUNT INT
+);
+
+CREATE TABLE TTUSER_CONNECTION(
+id INT NOT NULL AUTO_INCREMENT, 
+PRIMARY KEY(id),
+TTUSER_ID VARCHAR(20),
+CONNECTION_TTUSER_ID VARCHAR(20),
+STATUS VARCHAR(20)
+);
+
+ALTER TABLE TTUSER_CONNECTION ADD COLUMN CONNECTION_TTUSER_NAME VARCHAR(2000);
+
+ALTER TABLE TTUSER_CONNECTION DROP COLUMN CONNECTION_TTUSER_NAME ;
+
+--IMPORTANT
+ALTER TABLE TTUSERS MODIFY COLUMN username VARCHAR(2000);
+
+CREATE TABLE CONNECTION_MEDIUM(
+id INT NOT NULL AUTO_INCREMENT, 
+PRIMARY KEY(id),
+MEDIUM_NAME VARCHAR(2000),
+TTUSER_ID VARCHAR(20),
+TTUSER_MEDIUM_USERNAME VARCHAR(2000)
+);
+delete from TTUSER_LOCATION_COUNT;
+delete from TTUSER_ETHNICITY_COUNT;
+Delete from TTUSER_REQUEsT_SENT;
+Delete from TTuSER_ReQuesT_RecEivEd;
+Delete from TTUSER_CONNECTION;
+ALTER TABLE TTUSER_CONNECTION ADD COLUMN REQUEST_TYPE VARCHAR(20)
+ALTER TABLE TTUSER_CONNECTION ADD COLUMN REQUEST_SENT_RECEIVE_ACCEPTED_DATE VARCHAR(20)
+
+
+--TTUSERS
+INSERT INTO TTUSERS (username,password,birthyear,location_id,ethnicity_id,first_name,last_name,MEDIUM_NAME,PREFERRED_MEDIUM_USERNAME) VALUES ('abc1@abc.com','abcabc','1980','1','1','z1','z2','facebook','waker kabir');
+INSERT INTO TTUSERS (username,password,birthyear,location_id,ethnicity_id,first_name,last_name,MEDIUM_NAME,PREFERRED_MEDIUM_USERNAME) VALUES ('abc11@abc.com','abcabc','1981','2','2','z1','z2','facebook','shapemutantsvsu');
+INSERT INTO TTUSERS (username,password,birthyear,location_id,ethnicity_id,first_name,last_name,MEDIUM_NAME,PREFERRED_MEDIUM_USERNAME) VALUES ('abc111@abc.com','abcabc','1982','3','3','z1','z2','facebook','Child Learning');
+INSERT INTO TTUSERS (username,password,birthyear,location_id,ethnicity_id,first_name,last_name,MEDIUM_NAME,PREFERRED_MEDIUM_USERNAME) VALUES ('abc1111@abc.com','abcabc','1983','4','4','z1','z2','facebook','Runa Hassan');
+INSERT INTO TTUSERS (username,password,birthyear,location_id,ethnicity_id,first_name,last_name,MEDIUM_NAME,PREFERRED_MEDIUM_USERNAME) VALUES ('abc11111abc.com','abcabc','1984','5','5','z1','z2','facebook','mmm.bbb');
+INSERT INTO TTUSERS (username,password,birthyear,location_id,ethnicity_id,first_name,last_name,MEDIUM_NAME,PREFERRED_MEDIUM_USERNAME) VALUES ('abc2@abc.com','abcabc','1980','1','1','z1','z2','twitter','aluvorta');
+INSERT INTO TTUSERS (username,password,birthyear,location_id,ethnicity_id,first_name,last_name,MEDIUM_NAME,PREFERRED_MEDIUM_USERNAME) VALUES ('abc22@abc.com','abcabc','1981','2','2','z1','z2','twitter','shapemutantsvsu');
+INSERT INTO TTUSERS (username,password,birthyear,location_id,ethnicity_id,first_name,last_name,MEDIUM_NAME,PREFERRED_MEDIUM_USERNAME) VALUES ('abc222@abc.com','abcabc','1982','3','3','z1','z2','twitter','childlearning');
+INSERT INTO TTUSERS (username,password,birthyear,location_id,ethnicity_id,first_name,last_name,MEDIUM_NAME,PREFERRED_MEDIUM_USERNAME) VALUES ('abc2222@abc.com','abcabc','1983','4','4','z1','z2','gmail','aaa@dkdkd.com');
+INSERT INTO TTUSERS (username,password,birthyear,location_id,ethnicity_id,first_name,last_name,MEDIUM_NAME,PREFERRED_MEDIUM_USERNAME) VALUES ('abc22222@abc.com','abcabc','1984','5','5','z1','z2','gmail','aaa@dkdkd.com');
+INSERT INTO TTUSERS (username,password,birthyear,location_id,ethnicity_id,first_name,last_name,MEDIUM_NAME,PREFERRED_MEDIUM_USERNAME) VALUES ('abc3@abc.com','abcabc','1980','1','1','z1','z2','gmail','aaa@dkdkd.com');
+INSERT INTO TTUSERS (username,password,birthyear,location_id,ethnicity_id,first_name,last_name,MEDIUM_NAME,PREFERRED_MEDIUM_USERNAME) VALUES ('abc33@abc.com','abcabc','1981','2','2','z1','z2','yahoo','aaa@dkdkd.com');
+INSERT INTO TTUSERS (username,password,birthyear,location_id,ethnicity_id,first_name,last_name,MEDIUM_NAME,PREFERRED_MEDIUM_USERNAME) VALUES ('abc333@abc.com','abcabc','1982','3','3','z1','z2','yahoo','aaa@dkdkd.com');
+INSERT INTO TTUSERS (username,password,birthyear,location_id,ethnicity_id,first_name,last_name,MEDIUM_NAME,PREFERRED_MEDIUM_USERNAME) VALUES ('abc3333@abc.com','abcabc','1983','4','4','z1','z2','yahoo','aaa@dkdkd.com');
+INSERT INTO TTUSERS (username,password,birthyear,location_id,ethnicity_id,first_name,last_name,MEDIUM_NAME,PREFERRED_MEDIUM_USERNAME) VALUES ('abc33333@abc.com','abcabc','1984','5','5','z1','z2','yahoo','aaa@dkdkd.com');
+INSERT INTO TTUSERS (username,password,birthyear,location_id,ethnicity_id,first_name,last_name,MEDIUM_NAME,PREFERRED_MEDIUM_USERNAME) VALUES ('abc4@abc.com','abcabc','1980','1','1','z1','z2','hotmail','aaa@dkdkd.com');
+INSERT INTO TTUSERS (username,password,birthyear,location_id,ethnicity_id,first_name,last_name,MEDIUM_NAME,PREFERRED_MEDIUM_USERNAME) VALUES ('abc44@abc.com','abcabc','1980','1','1','z1','z2','hotmail','aaa@dkdkd.com');
+INSERT INTO TTUSERS (username,password,birthyear,location_id,ethnicity_id,first_name,last_name,MEDIUM_NAME,PREFERRED_MEDIUM_USERNAME) VALUES ('abc444@abc.com','abcabc','1980','1','1','z1','z2','hotmail','aaa@dkdkd.com');
+INSERT INTO TTUSERS (username,password,birthyear,location_id,ethnicity_id,first_name,last_name,MEDIUM_NAME,PREFERRED_MEDIUM_USERNAME) VALUES ('abc4444@abc.com','abcabc','1980','1','1','z1','z2','hotmail','aaa@dkdkd.com');
+
+
+DELETE FROM TTUSERS;
+INSERT INTO LOCATION (NAME) VALUES ('Sydney');
+INSERT INTO LOCATION (NAME) VALUES ('Melbourne');
+INSERT INTO LOCATION (NAME) VALUES ('Canberra');
+INSERT INTO LOCATION (NAME) VALUES ('Adelaide');
+INSERT INTO LOCATION (NAME) VALUES ('Perth');
+INSERT INTO LOCATION (NAME) VALUES ('Tasmania');
+INSERT INTO LOCATION (NAME) VALUES ('Darwin');
+
+
+INSERT INTO LANGUAGE (NAME) VALUES ('English');
+INSERT INTO LANGUAGE (NAME) VALUES ('Korean');
+INSERT INTO LANGUAGE (NAME) VALUES ('Vietnamese');
+INSERT INTO LANGUAGE (NAME) VALUES ('Chinese');
+INSERT INTO LANGUAGE (NAME) VALUES ('Japanese');
+INSERT INTO LANGUAGE (NAME) VALUES ('Arabic');
+INSERT INTO LANGUAGE (NAME) VALUES ('Hindi');
+INSERT INTO LANGUAGE (NAME) VALUES ('Bengali');
+INSERT INTO LANGUAGE (NAME) VALUES ('Urdu');
+
+INSERT INTO ETHNICITY (NAME) VALUES ('Australian');
+INSERT INTO ETHNICITY (NAME) VALUES ('British');
+INSERT INTO ETHNICITY (NAME) VALUES ('Korean');
+INSERT INTO ETHNICITY (NAME) VALUES ('Vietnamese');
+INSERT INTO ETHNICITY (NAME) VALUES ('Chinese');
+INSERT INTO ETHNICITY (NAME) VALUES ('Japanese');
+INSERT INTO ETHNICITY (NAME) VALUES ('Arabian');
+INSERT INTO ETHNICITY (NAME) VALUES ('Indian');
+INSERT INTO ETHNICITY (NAME) VALUES ('Bangladeshi');
+INSERT INTO ETHNICITY (NAME) VALUES ('Pakistani');
+INSERT INTO ETHNICITY (NAME) VALUES ('American');

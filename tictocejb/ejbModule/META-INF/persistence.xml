@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- example of a default persistence.xml -->
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+             version="2.0">
+    <persistence-unit name="mypersistence" transaction-type="JTA">
+   <provider>org.hibernate.ejb.HibernatePersistence</provider>
+   <jta-data-source>jdbc/iintel</jta-data-source>
+   <class>com.iphoneservice.iintel.entity.User</class>
+   <class>com.iphoneservice.iintel.entity.Ethnicity</class>
+   <class>com.iphoneservice.iintel.entity.Language</class>
+   <class>com.iphoneservice.iintel.entity.Location</class>
+   <class>com.iphoneservice.iintel.entity.TTUsers</class>
+   <class>com.iphoneservice.iintel.entity.TtuserAgeCount</class>
+   <class>com.iphoneservice.iintel.entity.TtuserEhtnicityLocationAgeCount</class>
+   <class>com.iphoneservice.iintel.entity.TtuserEthnicityCount</class>
+   <class>com.iphoneservice.iintel.entity.TtuserLocationCount</class>
+   <class>com.iphoneservice.iintel.entity.TtuserRequestReceived</class>
+   <class>com.iphoneservice.iintel.entity.TtuserRequestSent</class>
+   <class>com.iphoneservice.iintel.entity.TtuserConnection</class>
+   <class>com.iphoneservice.iintel.entity.ConnectionMedium</class>
+   <class>com.iphoneservice.iintel.entity.TtuserLanguageCount</class>
+        <properties>
+        <!--  <property name="hibernate.transaction.factory_class"
+            value="org.hibernate.transaction.JTATransactionFactory" /> -->
+            <!-- <property name="hibernate.transaction.manager_lookup_class" value="org.hibernate.transaction.SunONETransactionManagerLookup"/> -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+           <!--  <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/> -->
+            
+            <!--<property name="hibernate.default_schema" value="MYKILLERAPP"/>-->
+            <property name="hibernate.default_schema" value="mysql"/>
+            <!-- <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/mykillerapp"/> -->
+            <property name="hibernate.show.sql" value="true"></property>
+            <property name="hibernate. jdbc.batch_size" value="250"/>
+          <!-- <property name="hibernate.hbm2ddl.auto" value="create"/> --> 
+                 <property name="hibernate.cache.provider_class" value="org.hibernate.cache.HashtableCacheProvider"/>
+        </properties>
+    </persistence-unit>
+</persistence>

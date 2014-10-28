@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="tictocear">
+        <wb-resource deploy-path="/" source-path="/EarContent"/>
+        <wb-resource deploy-path="/" source-path="/lib"/>
+        <dependent-module archiveName="tictocejb.jar" deploy-path="/" handle="module:/resource/tictocejb/tictocejb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tictocweb.war" deploy-path="/" handle="module:/resource/tictocweb/tictocweb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-lang-2.4.jar" deploy-path="/lib" handle="module:/classpath/lib/tictocear/lib/commons-lang-2.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate3.jar" deploy-path="/lib" handle="module:/classpath/lib/tictocear/lib/hibernate3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-collections-3.2.1.jar" deploy-path="/lib" handle="module:/classpath/lib/tictocear/lib/commons-collections-3.2.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,643 @@
+!SESSION 2013-02-19 14:21:28.397 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_35
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/ARSHIRSHAN/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/ARSHIRSHAN/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-02-19 14:21:35.353
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.690
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/lib/theme_images.rb
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.695
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/stylesheets/sencha-touch/default/core/_core.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.695
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/stylesheets/sencha-touch/default/core/_layout.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.696
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/stylesheets/sencha-touch/default/core/_reset.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.696
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/stylesheets/sencha-touch/default/widgets/_buttons.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.697
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/stylesheets/sencha-touch/default/widgets/_carousel.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.697
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/stylesheets/sencha-touch/default/widgets/_charts.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.697
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/stylesheets/sencha-touch/default/widgets/_draw.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.698
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/stylesheets/sencha-touch/default/widgets/_form-sliders-basic.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.698
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/stylesheets/sencha-touch/default/widgets/_form-sliders.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.699
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/stylesheets/sencha-touch/default/widgets/_form.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.699
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/stylesheets/sencha-touch/default/widgets/_img.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.699
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/stylesheets/sencha-touch/default/widgets/_indexbar.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.700
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/stylesheets/sencha-touch/default/widgets/_list.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.700
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/stylesheets/sencha-touch/default/widgets/_loading-spinner.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.700
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/stylesheets/sencha-touch/default/widgets/_map.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.701
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/stylesheets/sencha-touch/default/widgets/_media.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.701
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/stylesheets/sencha-touch/default/widgets/_msgbox.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.702
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/stylesheets/sencha-touch/default/widgets/_panel.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.703
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/stylesheets/sencha-touch/default/widgets/_picker.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.703
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/stylesheets/sencha-touch/default/widgets/_sheets.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.703
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/stylesheets/sencha-touch/default/widgets/_tabs.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.704
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/stylesheets/sencha-touch/default/widgets/_toolbar-forms.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.704
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/stylesheets/sencha-touch/default/widgets/_toolbar.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.707
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/fonts/heydings/heydings_icons.ttf
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.707
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/fonts/iconic/demo.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.708
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/fonts/iconic/iconic.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.709
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/fonts/iconic/iconic_stroke.eot
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.710
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/fonts/iconic/iconic_stroke.otf
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.710
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/fonts/iconic/iconic_stroke.svg
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.710
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/fonts/iconic/iconic_stroke.ttf
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.711
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/fonts/websymbols/websymbols-regular-webfont.eot
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.711
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/fonts/websymbols/websymbols-regular-webfont.svg
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.711
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/fonts/websymbols/websymbols-regular-webfont.ttf
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.712
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/lib/compass-recipes/sass_extensions.rb
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.713
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/_background.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.713
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/_color.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.713
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/_effect.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.714
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/_form.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.714
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/_google-webfont.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.715
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/_icons.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.715
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/_layout.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.715
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/_media-queries.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.716
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/_shadow.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.716
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/_shape.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.716
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/_shared.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.717
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/_ui.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.717
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/_webfont-icon.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.717
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/animation/_keyframes.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.718
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/background/_blueprint-grid.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.718
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/background/_carbon-fiber.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.719
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/background/_checkerboard.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.719
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/background/_cicada.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.719
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/background/_gradients.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.719
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/background/_houndstooth.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.720
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/background/_lined-paper.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.720
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/background/_madras.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.720
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/background/_noise.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.721
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/background/_polka-dot.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.721
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/background/_radial-overlay.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.721
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/background/_striped.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.721
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/background/_stripes.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.722
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/background/_tablecloth.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.722
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/background/_tartan.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.722
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/effect/_bevel.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.723
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/effect/_corner-folded.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.723
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/effect/_cutout.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.723
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/effect/_folded-corner.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.724
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/effect/_glass.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.724
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/effect/_tape.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.724
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/form/_element.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.725
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/form/_skin.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.725
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/form/element/_inline.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.725
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/form/skin/_natural.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.726
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/layout/_flexible-box-model.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.726
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/layout/_grid.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.726
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/layout/_vertical-align.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.727
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shadow/_drop.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.727
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shadow/_top-edge.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.727
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shadow/drop/_curled-corners.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.727
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shadow/drop/_curved.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.728
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shadow/drop/_flying.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.729
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shadow/drop/_lifted-corners.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.730
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shadow/drop/_perspective.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.730
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shadow/drop/_raised.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.731
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shadow/drop/_transform-requirement.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.731
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shape/_ellipse.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.732
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shape/_polygon.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.732
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shape/_symbol.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.733
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shape/polygon/_hexagon.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.733
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shape/polygon/_octagon.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.734
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shape/polygon/_parallelogram.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.734
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shape/polygon/_pentagon.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.735
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shape/polygon/_rectangle.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.735
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shape/polygon/_rhombus.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.735
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shape/polygon/_square.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.736
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shape/polygon/_star.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.736
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shape/polygon/_trapezoid.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.736
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shape/polygon/_triangle.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.737
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shape/symbol/_diamond.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.737
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shape/symbol/_egg.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.738
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shape/symbol/_heart.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.738
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shape/symbol/_infinity.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.738
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shape/symbol/_pacman.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.739
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shape/symbol/_yin-yang.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.739
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shared/_block-inline-block.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.739
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shared/_clearfix.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.740
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shared/_list-inline-block.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.740
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shared/_pseudo-element.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.740
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/shared/_user-select.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.741
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/ui/_convex.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.741
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/ui/_glossy.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.741
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/ui/_gradient.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.742
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/ui/_helper.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.742
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/ui/_keyboard.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.742
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/ui/_menu.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.742
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/ui/_overlay.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.743
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/ui/_separator.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.743
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/ui/border/_bevel.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.743
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/ui/helper/_arrow.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.744
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/stylesheets/recipes/ui/menu/_dropdown.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.745
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/background/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.745
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/background/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.746
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/background/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.746
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/color/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.747
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/color/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.747
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/color/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.748
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/effect/bevel/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.748
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/effect/bevel/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.748
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/effect/bevel/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.749
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/effect/corner-folded/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.749
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/effect/corner-folded/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.749
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/effect/corner-folded/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.750
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/effect/cutout/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.750
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/effect/cutout/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.750
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/effect/cutout/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.751
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/effect/glass/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.751
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/effect/glass/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.751
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/effect/glass/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.752
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/effect/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.752
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/form/element/inline/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.753
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/form/element/inline/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.753
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/form/element/inline/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.753
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/form/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.754
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/form/skin/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.754
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/form/skin/natural/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.755
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/form/skin/natural/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.755
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/form/skin/natural/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.755
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/google-webfont/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.755
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/google-webfont/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.756
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/google-webfont/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.756
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.757
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/layout/grid/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.757
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/layout/grid/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.757
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/layout/grid/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.758
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/layout/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.758
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/layout/vertical-align/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.758
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/layout/vertical-align/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.759
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/layout/vertical-align/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.759
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/media-queries/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.759
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/media-queries/s.scssx
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.760
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shadow/drop/curved/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.760
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shadow/drop/curved/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.760
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shadow/drop/curved/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.760
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shadow/drop/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.761
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shadow/drop/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.761
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shadow/drop/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.761
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shadow/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.762
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shape/ellipse/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.762
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shape/ellipse/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.762
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shape/ellipse/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.763
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shape/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.763
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shape/polygon/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.763
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shape/polygon/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.764
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shape/polygon/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.764
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shape/polygon/star/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.764
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shape/polygon/star/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.765
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shape/polygon/star/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.765
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shape/polygon/triangle/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.765
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shape/polygon/triangle/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.766
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shape/polygon/triangle/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.766
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shape/symbol/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.767
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shape/symbol/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.767
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shape/symbol/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.768
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shared/clearfix/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.768
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shared/clearfix/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.769
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shared/clearfix/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.769
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/shared/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.770
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/ui/convex/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.770
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/ui/convex/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.771
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/ui/convex/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.771
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/ui/gradient/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.772
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/ui/gradient/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.772
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/ui/gradient/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.773
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/ui/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.773
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/ui/keyboard/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.774
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/ui/keyboard/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.774
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/ui/keyboard/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.775
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/ui/menu/dropdown/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.775
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/ui/menu/dropdown/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.775
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/ui/menu/dropdown/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.776
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/ui/menu/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.776
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/ui/overlay/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.776
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/ui/overlay/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.777
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/ui/overlay/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.777
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/ui/separator/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.777
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/ui/separator/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.778
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/ui/separator/s.scss
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.778
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/ui/webfont-icons/index.html
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.779
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/ui/webfont-icons/s.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-02-19 14:22:34.779
+!MESSAGE Ignoring invalid JSF resource: L/tictocweb/WebContent/resources/themes/vendor/compass-recipes/tests/recipes/ui/webfont-icons/s.scss
